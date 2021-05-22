@@ -1,0 +1,78 @@
+main{
+    width: 700px;
+    margin-left: calc((100% - 700px) / 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    display: flex;
+    border-bottom-style: solid;
+    flex-direction: row;
+    border-color: rgb(194, 190, 190);
+
+}
+/* header */
+h2{
+    color: rgb(194, 190, 190);
+    font-size: 18px;
+    border-bottom-style: solid;
+    padding: 10px;
+}
+/* left  */
+h1{
+    color:red;
+    font-size: 22px;
+    text-align: justify;
+}
+p{
+    font-size: 10px;
+}
+.left{
+    width:280px;
+}
+/* giro */
+.giromain{
+    display: inline-block;
+}
+.girotxt{
+    width: 70%;
+    display: inline-block;
+}
+.girotxt a {
+    color:red;
+}
+.giro{
+    width:15%;
+    border-color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    padding-bottom: 3px;
+    transform: rotate(7deg);
+    margin-left: 7%;
+    display: inline-block;
+}
+.giro p {
+    color:black;
+    font-weight: bold;
+    margin: 0;
+    line-height: 0.9;
+    display: inline-block;
+}
+.giro1{
+    font-size: 17px;
+    transform:scale(1, .9);
+}
+.giro2{
+    font-size: 25px;
+    transform:scale(1, 1.2);
+}
+.imgLogo{
+    width: 200px;
+    margin-top: 80px;
+}
+/* right */
+.imgLights{
+    width: 280px;
+    display:block;
+    margin:auto;
+    margin-left: 90px;
+}
